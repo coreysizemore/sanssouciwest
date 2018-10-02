@@ -1,0 +1,329 @@
+/* color variables */
+
+$colorone: #7092bb;
+$colortwo: #73B7D2;
+$colorthree: #746EC8;
+$colorfour: #6EC6C8;
+
+/* end color variables */
+
+a#searchopen:link,
+a#searchopen:visited,
+a#mobileclose:link, 
+a#mobileclose:visited {
+	color: $colortwo;
+}
+
+#mobile_nav,
+#search {
+	background: rgba($colorthree, 0.9);
+}
+
+#parallax {
+	background: url('../img/parallax.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+	background: url('../img/home.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+	#nav_bar.full_navigation {
+		background: #ffffff;
+		height: 170px;
+		
+		&.scroll-fix {
+			height: 70px;
+		}
+		
+		
+		nav#primary_nav {
+			ul {
+				li {
+					a:link,
+					a:visited {
+						color: #333333;
+					}
+				}
+			}
+		}
+		
+		#logo_main {
+			h1 {
+				a:link,
+				a:visited {
+					color: #333333;
+				}
+			}
+		}
+	}
+}
+
+
+
+header#header_page {
+	background: url('../img/page.jpg') no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#attention_bar {
+	background: $colorone;
+}
+
+#call_out_boxes {
+	.cob_3 {
+		.call_out_boxes_item {
+			.square.fas {
+				background: $colortwo;
+			}
+			
+			h3 {
+				color: $colortwo;
+			}
+			
+			a:link,
+			a:visited {
+				border: 2px solid $colortwo;
+				color: $colortwo;
+			}
+		}
+	}
+}
+
+.content {
+	h1,h3 {
+		color: $colortwo;
+	}
+	
+	hr.divider {
+		background: $colortwo;
+	}
+	
+	a:link,
+	a:visited {
+		color: $colortwo;
+	}
+	
+	iframe {
+		width: 100%;
+	}
+	
+	#accordion {
+		& > h3 {
+			color: #777777;
+			font-weight: 600;
+		}
+		
+		& > h3.ui-state-active {
+			color: $colortwo;
+		}
+	}
+	
+	.homes_wrapper {
+		.homes_item {
+			padding: 20px;
+			
+			span {
+				display: inline-block;
+				vertical-align: top;
+			}
+			
+			span.lot_number {
+				width: 15%;
+			}
+			
+			span.sale_price {
+				width: 15%;
+			}
+			
+			span.lot_rent {
+				width: 15%;
+			}
+			
+			span.style {
+				width: 25%;
+			}
+			
+			span.contact_information {
+				width: 30%;
+			}
+			
+			&:first-child {
+				span {
+					font-weight: 500;
+				}
+			}
+			
+			&:nth-child(even) {
+				background: #f8f8f8;
+			}
+		}
+	}
+
+}
+
+.sidebar {
+	.business_information_wrapper {
+		background: $colorone;
+	}
+}
+
+footer {
+	background: #ffffff;
+	
+	#logo_footer {
+		
+		h1 {
+			a:link,
+			a:visited {
+				color: #333333;
+			}	
+		}
+		
+		h2 {
+			color: #333333;
+		}
+	}
+}
+
+#copyright {
+	background: $colorone;
+}
+
+/* responsive media queries */
+
+@media (min-width: 980px) and (max-width: 1220px) {
+	
+
+	
+}
+	
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	header#header_page {
+		background: url('../img/page_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	
+	
+}
+	
+@media (min-width: 480px) and (max-width: 767px) {
+	
+	header {
+		background: url('../img/home_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	header#header_page {
+		background: url('../img/page_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	.content {
+		.homes_wrapper {
+			.homes_item {
+				span {
+					display: block;
+				}
+				
+				span.lot_number {
+					width: 100%;
+				}
+				
+				span.sale_price {
+					width: 100%;
+				}
+				
+				span.lot_rent {
+					width: 100%;
+				}
+				
+				span.style {
+					width: 100%;
+				}
+				
+				span.contact_information {
+					width: 100%;
+				}
+				
+				&:first-child {
+					display: none;
+				}
+			}
+		}
+	}
+	
+	footer {
+		#logo_footer {
+			img {
+				height: 60px;
+			}
+		}
+	}
+	
+}
+	
+@media (min-width: 0px) and (max-width: 479px) {
+	
+	header {
+		background: url('../img/home_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	header#header_page {
+		background: url('../img/page_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	.content {
+		.homes_wrapper {
+			.homes_item {
+				span {
+					display: block;
+				}
+				
+				span.lot_number {
+					width: 100%;
+				}
+				
+				span.sale_price {
+					width: 100%;
+				}
+				
+				span.lot_rent {
+					width: 100%;
+				}
+				
+				span.style {
+					width: 100%;
+				}
+				
+				span.contact_information {
+					width: 100%;
+				}
+				
+				&:first-child {
+					display: none;
+				}
+			}
+		}
+	}
+	
+	footer {
+		#logo_footer {
+			img {
+				height: 40px;
+			}
+		}
+	}
+	
+}
