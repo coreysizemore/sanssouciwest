@@ -7,6 +7,10 @@ $colorfour: #6EC6C8;
 
 /* end color variables */
 
+#top_bar.containerwidth {
+	background: $colorone;
+}
+
 a#searchopen:link,
 a#searchopen:visited,
 a#mobileclose:link, 
@@ -62,7 +66,29 @@ header#header_page {
 	background: url('../img/page.jpg') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+    height: 450px;
 }
+
+.page-id-1132 header#header_page {
+	background: url('../img/page1.jpg') no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.page-id-1155 header#header_page {
+	background: url('../img/page2.jpg') no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.page-id-1242 header#header_page {
+	background: url('../img/page3.jpg') no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+
 #attention_bar {
 	background: $colorone;
 }
@@ -203,7 +229,23 @@ footer {
 	    background-attachment: fixed;
 	}
 	
+	.page-id-1132 header#header_page {
+		background: url('../img/page1_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
 	
+	.page-id-1155 header#header_page {
+		background: url('../img/page2_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	.page-id-1242 header#header_page {
+		background: url('../img/page3_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
 	
 }
 	
@@ -217,6 +259,24 @@ footer {
 	
 	header#header_page {
 		background: url('../img/page_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	.page-id-1132 header#header_page {
+		background: url('../img/page1_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	.page-id-1155 header#header_page {
+		background: url('../img/page2_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	.page-id-1242 header#header_page {
+		background: url('../img/page3_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
@@ -275,6 +335,24 @@ footer {
 	
 	header#header_page {
 		background: url('../img/page_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	.page-id-1132 header#header_page {
+		background: url('../img/page1_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	.page-id-1155 header#header_page {
+		background: url('../img/page2_mobile.jpg') no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	}
+	
+	.page-id-1242 header#header_page {
+		background: url('../img/page3_mobile.jpg') no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	}
